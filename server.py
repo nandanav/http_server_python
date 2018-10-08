@@ -6,7 +6,8 @@ port = 6789
 body = "Hello, World! My Python Web Server looks like its working, yay!"
 
 output = f"HTTP/1.1 200 OK\nServer: Cool?\n\
-          Content-Type: text/html;charset=UTF-8\nContent-Length: {len(body.encode('utf-8'))}\
+          Content-Type: text/html;charset=UTF-8\n\
+          Content-Length: {len(body.encode('utf-8'))}\
           \n\n{body}"
 
 s.bind((host, port))
