@@ -4,7 +4,3 @@
 
 Simple HTTP server written in Python. Made to practice my skills and learn more about HTTP servers
 
-## CONFIG file Format
-
-Apache configuration file used for inspiration
-TBD
